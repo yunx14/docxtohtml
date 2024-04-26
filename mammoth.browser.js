@@ -2601,8 +2601,8 @@ var defaultStyleMap = exports._defaultStyleMap = [
     "p[style-name='Endnote'] => p:fresh",
     "r[style-name='Endnote anchor'] =>",
     
-    "p:unordered-list(1) => ul.ul > li.li.p2",
-    "p:unordered-list(2) => ul > li > ul > li:fresh",
+    "p:unordered-list(1) => ul.ul > li.li.p2:fresh",
+    "p:unordered-list(2) => ul|ol > li > ul > li:fresh",
     "p:unordered-list(3) => ul|ol > li > ul|ol > li > ul > li:fresh",
     "p:unordered-list(4) => ul|ol > li > ul|ol > li > ul|ol > li > ul > li:fresh",
     "p:unordered-list(5) => ul|ol > li > ul|ol > li > ul|ol > li > ul|ol > li > ul > li:fresh",
